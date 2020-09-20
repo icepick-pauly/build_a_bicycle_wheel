@@ -1,0 +1,59 @@
+body {
+    background-size: 14px 14px;
+    background-image: radial-gradient(circle, #4A86E8 1px, rgba(0, 0, 0, 0) 1px);
+  }
+
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 3em;
+  }
+
+  .label {
+      border: 2px solid #4A86E8;
+      background-color: white;
+      border-radius: 5px;
+      width: 66.66%;
+      text-align: center;
+  }
+
+  h1 {
+      color: #4A86E8 ;
+      padding: 0 12px;
+      line-height: 0;
+  }
+
+  .display {
+    margin-top: 2em;
+    width: 300px;
+    background-color: white;
+    border: 2px solid #4A86E8;
+    border-radius: 5px;
+    width: 66.66%;
+    height: 70vh;
+    position: relative;
+  }
+
+  .display-inner {
+    margin: 0 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.display-content h2 {
+    color: #4A86E8;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
